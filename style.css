@@ -1,5 +1,6 @@
-.body {
+body {
   margin: 0;
+  font-family: "Roboto Slab", serif;
 }
 .frist-page {
   background-image: url(pic/donation13.jpg);
@@ -20,9 +21,10 @@
 }
 .heding-fonts p {
   font-size: 20px;
+  color: bisque;
 }
 .heding-fonts a {
-  padding: 20px 50px;
+  padding: 18px 40px;
   background-color: orangered;
   border-radius: 10px;
   color: azure;
@@ -90,11 +92,11 @@
   margin: 10px;
   font-size: 35px;
 }
-.taka {
+#tk {
   text-align: center;
-  margin-top: 50px;
-  font-size: 20px;
-  color: gray;
+}
+#tk input {
+  border: none;
 }
 .line {
   width: 700px;
@@ -181,7 +183,7 @@
   border-radius: 5px;
   font-weight: 700px;
   padding: 20px 40px;
-  margin: 30px 20px;
+  margin: 30px 70px;
   display: inline-block;
 }
 .half h1 {
@@ -194,6 +196,7 @@
 }
 .updates {
   text-align: center;
+  margin-left: 170px;
 }
 .updates h1 {
   font-size: 50px;
@@ -203,20 +206,20 @@
   color: grey;
   margin-top: -20px;
 }
-form {
+.updates {
   text-align: center;
   display: inline-block;
   padding: 70px 250px;
   background-color: rgb(240, 228, 226);
 }
-form input {
+.updates input {
   padding: 15px 50px;
   background-color: rgb(218, 212, 212);
   border: none;
   border-radius: 5px;
   font-size: 17px;
 }
-form a {
+.updates a {
   padding: 15px 50px;
   border: none;
   border-radius: 5px;
