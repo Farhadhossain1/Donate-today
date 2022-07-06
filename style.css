@@ -20,7 +20,6 @@ body {
   color: aqua;
 }
 .heding-fonts p {
-  font-size: 20px;
   color: bisque;
 }
 .heding-fonts a {
@@ -52,7 +51,7 @@ body {
   padding: 30px;
   display: inline;
   margin: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .part-of-two .two {
   color: tomato;
@@ -63,7 +62,7 @@ body {
   padding: 30px;
   display: inline;
   margin: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .part-of-two .three {
   color: rgb(63, 60, 60);
@@ -72,16 +71,16 @@ body {
   padding: 30px;
   display: inline;
   margin: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .part-of-two .four {
   color: rgb(63, 60, 60);
-  width: 50px;
+  width: 70px;
   background: white;
   padding: 30px;
   display: inline-block;
   margin: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .part-of-two .five {
   color: rgb(63, 60, 60);
@@ -90,7 +89,7 @@ body {
   padding: 30px;
   display: inline;
   margin: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
 #tk {
   text-align: center;
@@ -105,14 +104,6 @@ body {
   margin: 0 auto;
   display: flex;
 }
-.line a {
-  padding: 20px 50px;
-  background-color: chocolate;
-  color: azure;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 20px;
-}
 .baton a {
   text-decoration: none;
   text-align: center;
@@ -120,7 +111,7 @@ body {
   color: azure;
   width: 10%;
   height: auto;
-  padding: 17px 35px;
+  padding: 10px 20px;
   right: 43%;
   position: absolute;
   float: left;
@@ -136,7 +127,6 @@ body {
   font-size: 50px;
 }
 .plan p {
-  font-size: 20px;
   color: grey;
   margin: 0 auto;
 }
@@ -149,7 +139,7 @@ body {
 
   margin-left: 2%;
   margin-right: 2%;
-  padding: 0px 10px;
+  padding: 30px 30px 15px;
   border-radius: 10px;
   text-align: justify;
 }
@@ -165,67 +155,61 @@ body {
 
 .need-us {
   display: flex;
-  margin-bottom: 100px;
+  margin: 40px 80px;
 }
 .half {
-  width: 50%;
-  padding: 2%;
+  width: 100%;
+  margin: 5%;
 }
 .half img {
-  width: 85%;
+  width: 100%;
   padding-top: 5%;
   padding-right: 5%;
+  height: 300px;
 }
 .link-button {
   text-decoration: none;
   color: azure;
   background-image: linear-gradient(chocolate, tomato);
   border-radius: 5px;
-  font-weight: 700px;
-  padding: 20px 40px;
-  margin: 30px 70px;
+  padding: 15px 30px;
+  margin: 20px;
   display: inline-block;
 }
 .half h1 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
 }
 .half p {
   color: gray;
-  font-size: 18px;
 }
 .updates {
   text-align: center;
-  margin-left: 170px;
 }
 .updates h1 {
-  font-size: 50px;
-}
-.updates p {
-  font-size: 18px;
-  color: grey;
-  margin-top: -20px;
-}
-.updates {
-  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
   display: inline-block;
-  padding: 70px 250px;
-  background-color: rgb(240, 228, 226);
 }
-.updates input {
-  padding: 15px 50px;
-  background-color: rgb(218, 212, 212);
-  border: none;
-  border-radius: 5px;
-  font-size: 17px;
+.email-btn {
+  text-align: center;
+  background: lightpink;
+  width: 300px;
+  margin: 0 auto;
+  padding: 60px 120px;
 }
-.updates a {
-  padding: 15px 50px;
+form #email {
+  padding: 10px 20px;
+  background: rgb(189, 186, 186);
   border: none;
-  border-radius: 5px;
-  background-image: linear-gradient(chocolate, tomato);
-  text-decoration: none;
-  font-size: 20px;
+}
+form #button {
+  border: none;
+  background-color: tomato;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin-left: -5px;
 }
 footer {
   background-color: darkslategrey;
