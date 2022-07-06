@@ -1,0 +1,162 @@
+.body {
+  margin: 0;
+}
+.frist-page {
+  background-image: url(pic/donation13.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heding-fonts {
+  display: inline-block;
+  text-align: center;
+  margin-left: 390px;
+  margin-top: 70px;
+}
+.heding-fonts h1 {
+  font-size: 50px;
+  color: aqua;
+}
+.heding-fonts p {
+  font-size: 20px;
+}
+.heding-fonts a {
+  padding: 20px 50px;
+  background-color: orangered;
+  border-radius: 10px;
+  color: azure;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: 15px;
+  display: inline-block;
+  font-size: 20px;
+}
+.part-of-two {
+  text-align: center;
+  margin-top: 100px;
+}
+.part-of-two h1 {
+  font-size: 50px;
+  color: aqua;
+}
+.part-of-two p {
+  font-size: 20px;
+}
+.part-of-two .one {
+  color: rgb(63, 60, 60);
+  width: 50px;
+  background: white;
+  padding: 30px;
+  display: inline;
+  margin: 10px;
+  font-size: 35px;
+}
+.part-of-two .two {
+  color: tomato;
+  border: 2px solid tomato;
+  border-radius: 8px;
+  width: 50px;
+  background: rgb(247, 232, 232);
+  padding: 30px;
+  display: inline;
+  margin: 10px;
+  font-size: 35px;
+}
+.part-of-two .three {
+  color: rgb(63, 60, 60);
+  width: 50px;
+  background: white;
+  padding: 30px;
+  display: inline;
+  margin: 10px;
+  font-size: 35px;
+}
+.part-of-two .four {
+  color: rgb(63, 60, 60);
+  width: 50px;
+  background: white;
+  padding: 30px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 35px;
+}
+.part-of-two .five {
+  color: rgb(63, 60, 60);
+  width: 50px;
+  background: white;
+  padding: 30px;
+  display: inline;
+  margin: 10px;
+  font-size: 35px;
+}
+.taka {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: gray;
+}
+.line {
+  width: 700px;
+  height: 1.5px;
+  background-color: rgb(192, 185, 185);
+  margin: 0 auto;
+  display: flex;
+}
+.line a {
+  padding: 20px 50px;
+  background-color: chocolate;
+  color: azure;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 20px;
+}
+.baton a {
+  text-decoration: none;
+  text-align: center;
+  background-color: orangered;
+  color: azure;
+  width: 10%;
+  height: auto;
+  padding: 17px 35px;
+  right: 43%;
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.plan {
+  text-align: center;
+  margin-top: 200px;
+}
+.plan h1 {
+  font-size: 50px;
+}
+.plan p {
+  font-size: 20px;
+  color: grey;
+  margin: 0 auto;
+}
+.flexible-container {
+  display: flex;
+  margin: 50px 50px;
+}
+.experience-item {
+  width: 50%;
+
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0px 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+.border-1 {
+  background: gray;
+}
+.border-2 {
+  background: pink;
+}
+.border-3 {
+  background: aqua;
+}
